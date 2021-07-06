@@ -1,37 +1,37 @@
-## Welcome to GitHub Pages
+## Добро пожаловать на GitHub Страницы
 
-You can use the [editor on GitHub](https://github.com/solidados/JavaScript_basics/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Вы можете воспользоваться [редактором на GitHub](https://github.com/solidados/JavaScript_basics/edit/gh-pages/index.md) для изменений и просмотра сожержимого вашего вебсайта в виде файлов разметки.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Когда бы вы ни создавали коммиты в этом репозитории, GitHub Страницы запустит [Jekyll](https://jekyllrb.com/) для перестроения страниц на вашем сайте, получая данные из содержимого файлов разметки.
 
-### Markdown
+### Разметка
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Разметка – это облегченный и простой в использовании синтаксис, нужный для стилизации вашего кода. Она включает некоторые условия для:
 
 ```markdown
-Syntax highlighted code block
+Выделенный синтаксисом блок кода
 
-# Header 1
-## Header 2
-### Header 3
+# Заголовок 1
+## Заголовок 2
+### Заголовок 3
 
-- Bulleted
-- List
+• Маркированный
+- Список
 
-1. Numbered
-2. List
+1. Нумерованный
+2. Список
 
-**Bold** and _Italic_ and `Code` text
+**Жирный** и _Курсивный_ и `Code` текст
 
-[Link](url) and ![Image](src)
+[Ссылка](url) и ![Рисунок](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Для получения более подробной информации, переходите по ссылке [Удобная разметка GitHub](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### Тема Jekyll
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/solidados/JavaScript_basics/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Ваш сайт Страниц будет использовать макет и стили Темы Jekyll, которую вы выбрали в [настройках вашего репозитория](https://github.com/solidados/JavaScript_basics/settings/pages). Имя этой Темы Jekyll сохранено в файле конфигурации `_config.yml`.
 
-### Support or Contact
+### Поддержка и Помощь
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Возникли трудности с Pages? Ознакомьтесь с [разяснениями](https://docs.github.com/categories/github-pages-basics/), либо обратитесь в [поддержку](https://support.github.com/contact) и мы поможем вам разобраться.
