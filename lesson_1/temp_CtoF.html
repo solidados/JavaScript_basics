@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<title>Temperature Converter</title>
+	<script src="calc_CtoF.js"></script>
+	<script src="variables.js"></script>
+</head>
+	<body>
+	<header></header>
+<!-- === TASK-1 ==========-->
+		<div class="converter">
+			<div class="container">
+				<hr>
+				<div class="converter__task">
+					<h2 class="task__one">Задание 1. "Конвертация"</h2>
+					<fieldset>
+						<legend>Convert °C to °F</legend>
+						<div class="converter__justify">
+							<label>Enter °C: <input type="text" id="celsDeg" value="0"></label>
+							<div class="result__window">
+								<h3 id="result"></h3>
+							</div>
+						</div>
+					</fieldset>
+					<button onclick="convertToFahrenheit()">CONVERT</button>
+				</div>
+			</div>
+		</div>
+
+<!-- === TASK-2 ========== -->
+		<div class="variables">
+			<div class="container">
+				<hr>
+				<div class="variables__task">
+					<h2 class="task__two">Задание 2. "Переменные"</h2>
+					<fieldset>
+						<legend>Admin's Name</legend>
+						<div class="converter__justify">
+							<div class="label__name">
+								<label><span>Enter Name and press button:</span>
+								<input type="text" id="firstName" value="Василий"></label>
+							</div>
+							<div class="result__window">
+								<div id="adminsName"></div>
+							</div>
+						</div>
+					</fieldset>
+					<button onclick="getAdminsName()">GET NAME</button>
+				</div>
+			</div>
+		</div>
+<!-- === TASK-3 ========== -->
+	<div class="variables">
+		<div class="container">
+			<hr>
+			<div class="expression__task">
+				<h2 class="task__three">Задание 3. "JS-выражение"</h2>
+				<fieldset>
+					<legend>Expression</legend>
+					<div class="converter__justify">
+						<label><textarea id="expression" cols="80" rows="8"></textarea></label>
+					</div>
+				</fieldset>
+			</div>
+		</div>
+	</div>
+<!-- === TASK-4 ========== -->
+	<div class="attributes">
+		<div class="container">
+			<hr>
+			<div class="attributes__task">
+				<h2 class="task__four">Задание 4. "Attributes async & defer"</h2>
+				<fieldset>
+					<legend>Attributes</legend>
+					<div class="converter__justify">
+						<label><textarea cols="80" rows="10">
+Прочитал статьи по ссылкам:
+https://learn.javascript.ru/external-script
+https://habr.com/ru/post/323790</textarea></label>
+					</div>
+				</fieldset>
+			</div>
+		</div>
+	</div>
+	<script src="./expression.js"></script>
+	</body>
+</html>

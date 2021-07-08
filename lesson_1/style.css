@@ -1,52 +1,115 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: rgb(245, 227, 204, 0.9);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    }
+.container {
+    width: 800px;
+    }
 
-container {
-    max-width: 800px;
-}
+header {
+    height: 60px;
+    }
+h2 {
+    margin-bottom: 30px;
+    }
+h3 {
+    display: block;
+    }
+/* === TASK-1 ========== */
+.converter__task {
+    padding: 20px;
+    width: 300px;
+    }
 
-.main__field {
+fieldset {
+    border: 1px solid steelblue;
+    background-color: #daebff;
+    padding: 15px;
+    margin-bottom: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+legend {
+    display: block;
+    border: 1px solid steelblue;
+    background-color: #daebff;
+    margin-bottom: 15px;
+    padding: 2px 12px;
+    font-weight: 100;
+    }
+
+.converter__justify {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+label {
+    margin: 15px;
+    }
+
+input{
+    border: none;
+    font-weight: 300;
+    font-size: 18px;
+    padding: 0 5px;
+    }
+.result__window {
+    width: 130px;
+    height: 25px;
+    border: 1px solid steelblue;
+    }
+#celsDeg {
+    height: 25px;
+    width: 130px;
+    }
+
+.result__window{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    margin: 50px auto;
-    height: 150px;
-    border: 1px solid #000;
-}
+    margin-top: 15px;
+    padding: 0 5px;
+    }
+#result {
+    color: darkblue;
+    font-weight: 700;
+    }
 
-fieldset {
+button {
+    width: 300px;
     height: 30px;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    background-color: #fff;
-}
+    background-color: #5380cb;
+    color: white;
+    border: none;
+    }
 
-.calc{
-    background-color: #fff;
-    padding: 15px;
-}
-input {
-    height: 20px;
-    border-radius: 15px;
-    margin-bottom: 25px;
-    background-color: #fff;
-  }
-  button {
-      display: block;
-    margin: 30px auto;
-    padding: 10px 15px;
-  }
-  .button {
-    /* border: 1px solid #ccc; */
-    padding: 5px 5px 0;
-    width: 50px;
-    display: inline-block;
-    clear: both;
-    margin: 0 20px;
-  }
+button:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+    font-weight: 700;
+    }
+
+/* === TASK-2 ========== */
+.variables__task {
+    padding: 20px;
+    width: 300px;
+    }
+
+/*=== TASK-3 ==========*/
+.expression__task {
+    padding: 20px;
+    width: 400px;
+    }
+
+/*=== TASK-4 ==========*/
+.attributes__task {
+    padding: 20px;
+    width: 400px;
+    }
